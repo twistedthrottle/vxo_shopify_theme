@@ -1,0 +1,112 @@
+{% schema %}
+{
+  "name": "Video Grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "fv_heading",
+      "label": "Section Heading",
+      "default": "Featured Videos"
+    },
+    {
+      "type": "checkbox",
+      "id": "fv_no_bottom_margin",
+      "label": "No Bottom Margin",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "fv_display_wide",
+      "label": "Display Wide",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video_url",
+      "name": "Video URL",
+      "settings": [
+        {
+          "type": "text",
+          "id": "ytvideo_url",
+          "label": "Video URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Video Grid",
+      "category": "Videos"
+    }
+  ]
+}
+
+{% endschema %}
+
+
+<section
+  id="page-section-{{ section.id }}"
+  class="section-featured-video-{{ section.id }}{% if section.settings.fv_no_bottom_margin %} nbm{% endif %}"
+  data-section-id="{{ section.id }}"
+>
+  {% if section.settings.fv_heading != blank %}
+    <div class="row">
+      <h2 class="section-title desktop-12 tablet-6 mobile-3">{{ section.settings.fv_heading | escape }}</h2>
+    </div>
+  {% endif %}
+
+  <div class="videoGrid_mlveda">
+    {% for block in section.blocks %}
+      <div class="videoWrapper_mlveda">
+        {% assign video_url = block.settings.ytvideo_url %}
+        {% if video_url contains 'youtube' %}
+          {% assign video_id = video_url | split: 'v=' | last %}
+          <iframe
+            src="https://www.youtube.com/embed/{{ video_id }}?rel=0&showinfo=0&vq=720"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        {% elsif video_url contains 'vimeo' %}
+          {% assign video_id = video_url | split: '/' | last %}
+          <iframe
+            src="https://player.vimeo.com/video/{{ video_id }}?byline=0&portrait=0&badge=0"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<style>
+  .videoGrid_mlveda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    max-width:1170px;
+    margin: 10px auto;
+  }
+
+  .videoWrapper_mlveda {
+    flex: 1 1 calc(33.3333% - 16px);
+    position: relative;
+    padding-bottom: 0;
+    height: 0;
+  }
+
+  .videoWrapper_mlveda iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (min-width: 900px) {
+    .videoWrapper_mlveda {
+      height:200px;
+    }
+  }
+</style>

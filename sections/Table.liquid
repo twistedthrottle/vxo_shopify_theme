@@ -1,0 +1,121 @@
+<style>
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+
+  }
+
+  td, th {
+
+    text-align: left;
+    padding: 8px;
+    width: 59px;
+
+
+  }
+  .outer{
+   margin-left: 222px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+</style>
+<div class="outer">
+  <div class="tab">
+    <table style=" cellspacing=10">
+      <tr>
+        <th>{{ section.settings.head1 }}</th>
+        <th>{{ section.settings.head2 }}</th>
+        <th>{{ section.settings.head3 }}</th>
+        <th>{{ section.settings.head4 }}</th>
+        <th>{{ section.settings.head5 }}</th>
+      </tr>
+      {% for block in section.blocks %}
+        <tr>
+          <td>{{ block.settings.ele1 }}</td>
+          <td>{{ block.settings.ele2 }}</td>
+          <td>{{ block.settings.ele3 }}</td>
+          <td>{{ block.settings.ele4 }}</td>
+          <td>{{ block.settings.ele5 }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+{% schema %}
+ {
+  "name": "Section name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Slideshow"
+    },
+    {
+      "type": "text",
+      "id": "head1",
+      "label": "Head-1"
+    },
+    {
+      "type": "text",
+      "id": "head2",
+      "label": "Head-2"
+    },
+    {
+      "type": "text",
+      "id": "head3",
+      "label": "Head-3"
+    },
+    {
+      "type": "text",
+      "id": "head4",
+      "label": "Head-4"
+    },
+     {
+      "type": "text",
+      "id": "head5",
+      "label": "Head-5"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Table",
+      "settings": [
+        {
+          "type": "text",
+          "id": "ele1",
+          "label": "Element-1"
+        },
+        {
+          "type": "text",
+          "id": "ele2",
+          "label": "Element-2"
+        },
+        {
+          "type": "text",
+          "id": "ele3",
+          "label": "Element-3"
+        },
+        {
+          "type": "text",
+          "id": "ele4",
+          "label": "Element-4"
+        },
+        {
+          "type": "text",
+          "id": "ele5",
+          "label": "Element-5"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dare-to-compare"
+    }
+  ]
+}
+{% endschema %}

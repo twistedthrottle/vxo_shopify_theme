@@ -1,0 +1,162 @@
+.page-product img {
+  width: auto !important;
+}
+
+/* Static color */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --bg-deal-section: #e6e6e6;
+  --text-deal-text: #383838;
+
+  --body-font-size: {{ settings.body_font_size }}px;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-black: 900;
+
+  --size-largest-1: 48px;
+  --size-largest-2: 40px;
+  --size-h1: {{ settings.heading_size_1 }}px;
+  --size-h2: {{ settings.heading_size_2 }}px;
+  --size-h3: {{ settings.heading_size_3 }}px;
+  --size-h4: {{ settings.heading_size_4 }}px;
+  --size-h5: {{ settings.heading_size_5 }}px;
+  --size-h6: {{ settings.heading_size_6 }}px;
+  --top-font-size: {{ settings.top_bar_size }}px;
+  --product-font-size: {{ settings.product_title_size }}px;
+  --product-price-size: {{ settings.product_price_size }}px;
+  --product-detail-title-size: {{ settings.product_detail_title_size }}px;
+
+  --font-icon: 28px;
+  --font-small-icon: 22px;
+
+  /* Header */
+  --main-color: {{ settings.main_color }};
+  --bg-header-color: {{ settings.header_bg_color }};
+  --bg-number-icon: {{ settings.bg_color_number_icon }};
+
+  --topbar-bg-color: {{ settings.header_topbar_bg_color }};
+  --header-bottom-bg-color: {{ settings.header_bottom_bar_bg_color }};
+  --header-department-button-bg: {{ settings.department_bg }};
+  --custom-text-color: {{ settings.custom_text }};
+
+  /* Navigation */
+  --nav-font-size: {{ settings.nav_size }}px;
+  --nav-sub-font-size: {{ settings.nav_sub_size }}px;
+
+  --nav-link-color: {{ settings.nav_link_color }};
+  --nav-link-hover-color: {{ settings.nav_hover_color }};
+  --nav-link-hover-bg-color: {{ settings.nav_hover_bg_color }};
+  --nav-dropdown-background: {{ settings.dropdown_bg_color }};
+  --nav-dropdown-link-color: {{ settings.dropdown_item_color }};
+  --nav-dropdown-link-hover-color: {{ settings.dropdown_item_color_hover }};
+
+  --vertical-nav-link-color: {{ settings.vertical_nav_link_color }};
+  --vertical-nav-link-hover-color: {{ settings.vertical_nav_hover_color }};
+  --vertical-nav-dropdown-background: {{ settings.vertical_dropdown_bg_color }};
+  --vertical-nav-dropdown-link-color: {{ settings.vertical_dropdown_item_color }};
+  --vertical-nav-dropdown-link-hover-color: {{ settings.vertical_dropdown_item_color_hover }};
+
+  --label-sale-bg: {{ settings.menu_sale_label_bg }};
+  --label-new-bg: {{ settings.menu_new_label_bg }};
+  --label-hot-bg: {{ settings.menu_hot_label_bg }};
+
+  /* Body */
+  --body-background-color: {{ settings.body_bg }};
+  --body-second-color: {{ settings.miscellaneous_color }};
+
+  --body-label-sale-background: {{ settings.saleoff_bg_color }};
+  --body-label-new-background: {{ settings.lb_new_bg_color }};
+
+  --body-general-color: {{ settings.body_general_color }};
+  --body-light-color: {{ settings.body_light_color }};
+  --body-title-color: {{ settings.body_title_color }};
+  --body-link-color: {{ settings.body_link_color }};
+  --body-border-color: {{ settings.body_border_color }};
+  --body-ratting-empty-color: {{ settings.ratting_color_empty }};
+
+  --body-title-product: {{ settings.product_title_color }};
+  --body-price-color: {{ settings.product_price_color }};
+  --body-price-sale-color: {{ settings.product_sale_price_color }};
+  --body-price-sold-out-color: {{ settings.product_sold_out_price_color }};
+
+  --breadcrumb-height: {{ settings.breadcrumb_height }};
+  --breadcrumb-bg-color: {{ settings.breadcrumb_bg_color }};
+
+  /* Footer */
+  --footer-background-color: {{ settings.footer_bg }};
+  --footer-static-text-color: {{ settings.footer_text_color }};
+  --footer-link-color: {{ settings.footer_color }};
+  --footer-hover-color: {{ settings.footer_color_hover }};
+  --footer-copyright-bg: {{ settings.footer_bg_copyright }};
+  --footer-copyright-color: {{ settings.footer_color_copyright }};
+
+  --button-btn1: {{ settings.btn1_bg }};
+  --button-btn1-border: {{ settings.btn1_border }};
+  --button-hover-btn1: {{ settings.btn1_bg_hover }};
+  --button-hover-btn1-border: {{ settings.btn1_border_hover }};
+
+  --button-btn2: {{ settings.btn2_bg }};
+  --button-btn2-border: {{ settings.btn2_border }};
+  --button-hover-btn2: {{ settings.btn2_bg_hover }};
+  --button-hover-btn2-border: {{ settings.btn2_border_hover }};
+
+  --popup-letter-subtitle: #666666;
+
+  --productImageRatioPercentage: {{ settings.collections_product_ratio }};
+  --productImageAutoCrop: {{ settings.collection_product_auto_crop }};
+
+  --swatch-color-width: {{ settings.color_swatch_width }};
+  --swatch-color-height: {{ settings.color_swatch_height }};
+  --variant-image-width: {{ settings.image_swatch_width }};
+  --variant-image-height: {{ settings.image_swatch_height }};
+}
+/* 
+body {
+  font-size: var(--body-font-size);
+}
+
+h1 {
+  font-size: var(--size-h1);
+}
+
+h2 {
+  font-size: var(--size-h2);
+}
+
+h3 {
+  font-size: var(--size-h3);
+}
+
+h4 {
+  font-size: var(--size-h4);
+}
+
+h5 {
+  font-size: var(--size-h5);
+}
+
+h6 {
+  font-size: var(--size-h6);
+}
+
+.top-bar {
+  font-size: var(--top-font-size);
+}
+
+.product-title {
+  font-size: var(--product-font-size);
+}
+
+.product-price {
+  font-size: var(--product-price-size);
+}
+
+.product-detail-title {
+  font-size: var(--product-detail-title-size);
+}
+ */
+/* Additional CSS rules utilizing the defined variables */

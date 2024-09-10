@@ -1,0 +1,102 @@
+
+{% if section.settings.section_id.size > 0 %}
+  <!-- PageFlyGlobalSection -->
+  {% render 'pagefly-main-js' %}
+  {% render 'pagefly-main-css' %}
+  {% include section.settings.section_id %}
+{% else %}
+  
+    {% if request.design_mode %}
+      <style>.pf-ph{font-size:14px!important;background:#fafafa;padding:20px;text-align:center;border:1px solid #f0f0f0;border-radius:4px;margin:15px}.pf-ph span{display:block;background:#e6f7ff;padding:8px 15px;border:1px solid #91d5ff}</style>
+      <div class="pf-ph">
+        <h3>PageFly Section</h3>
+        <span>No section selected. Please select your section from the list</span>
+      </div>
+    {% endif %}
+  
+{% endif %}
+
+{% schema %}
+{
+  "name": "PageFly Section",
+  "settings": [
+    {
+      "id": "section_id",
+      "type": "select",
+      "label": "Sections",
+      "options": [
+        {
+          "label": "Select section",
+          "value": ""
+        },
+        {
+          "label": "Home Page Slideshow Header 2.0",
+          "value": "pf-6d4c2a3a"
+        },
+        {
+          "label": "Home Page Main Product Categories",
+          "value": "pf-eface79a"
+        },
+        {
+          "label": "Gallery + Side Text 2 Column ",
+          "value": "pf-b5f3dc09"
+        },
+        {
+          "label": "Product Content List ",
+          "value": "pf-3c5d00ad"
+        },
+        {
+          "label": "Home Page Main Product Categories Background",
+          "value": "pf-7917f6c5"
+        },
+        {
+          "label": "Slideshow Header 1.0",
+          "value": "pf-a3fa6acf"
+        },
+        {
+          "label": "Product Header Overlay 1.0",
+          "value": "pf-984702c0"
+        },
+        {
+          "label": "Key Features v1.0",
+          "value": "pf-2e41df9b"
+        },
+        {
+          "label": "Product Landing Page Header Banner v1.0",
+          "value": "pf-40e8eaae"
+        },
+        {
+          "label": "Product / Series Section v1.0",
+          "value": "pf-2d11cb85"
+        },
+        {
+          "label": "Product List v1.0 (PageFly)",
+          "value": "pf-81c1c291"
+        },
+        {
+          "label": "Blog Post Test",
+          "value": "pf-c5b47a82"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Find and edit your section on the [section listing](https://vision-x-off-road.myshopify.com/admin/apps/pagefly/sections)"
+    },
+    {
+      "type": "paragraph",
+      "content": "To add block to a section, please use the App Block element on PageFly section editor."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "PageFly Section"
+    }
+  ]
+}
+{% endschema %}
