@@ -338,8 +338,8 @@
     "background_video_BmxY8z": {
       "type": "background-video",
       "settings": {
-        "video_url": "https:\/\/www.youtube.com\/watch?v=-8dwxKP13Es",
-        "video_url_mp4": "",
+        "video_url": "",
+        "video_url_mp4": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6c0004c872e14891a2cd3fe8a890cd3d.mp4",
         "video_audio": "off",
         "video_heading": "",
         "video_subheading": "",
@@ -350,10 +350,10 @@
         "video_caption_alignment": "center",
         "slide_heading_size": 40,
         "subheading_size": 16,
-        "video_slide_text_color": "#000000",
+        "video_slide_text_color": "#ffffff",
         "video_cta_color": "#ffffff",
         "video_cta_background": "#000000",
-        "video_caption_background": "#ffffff",
+        "video_caption_background": "rgba(0,0,0,0)",
         "section_padding": "both"
       }
     },
