@@ -31,10 +31,10 @@
     "image_carousel_with_text_fAFKFx": {
       "type": "image-carousel-with-text",
       "blocks": {
-        "image_hFtwHa": {
+        "image_gRj8Cn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vision-X-Fitout-Jeep-v2.jpg",
+            "image": "shopify:\/\/shop_images\/Vision_X_Fitout_SxS.jpg",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "caption_position": "middle_center",
@@ -48,10 +48,10 @@
             "caption_background": "rgba(0,0,0,0)"
           }
         },
-        "image_gRj8Cn": {
+        "image_hFtwHa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Vision_X_Fitout_SxS.jpg",
+            "image": "shopify:\/\/shop_images\/Vision-X-Fitout-Jeep-v2.jpg",
             "overlay_color": "#000000",
             "overlay_opacity": 0,
             "caption_position": "middle_center",
@@ -84,8 +84,8 @@
         }
       },
       "block_order": [
-        "image_hFtwHa",
         "image_gRj8Cn",
+        "image_hFtwHa",
         "image_XpMJbD"
       ],
       "settings": {
