@@ -106,6 +106,84 @@
         "section_padding": "both"
       }
     },
+    "image_carousel_with_text_kt9KRH": {
+      "type": "image-carousel-with-text",
+      "blocks": {
+        "image_Li9M67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vision_X_Fitout_SxS.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "caption_position": "middle_center",
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Button",
+            "text_color": "#ffffff",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)"
+          }
+        },
+        "image_aBLY7j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vision-X-Fitout-Jeep-v2.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "caption_position": "middle_center",
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Button",
+            "text_color": "#ffffff",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)"
+          }
+        },
+        "image_Xmwf7A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vision_X_Fitout_Race.jpg",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "caption_position": "middle_center",
+            "heading": "",
+            "subheading": "",
+            "link": "",
+            "button_text": "Button",
+            "text_color": "#ffffff",
+            "button_color": "#ffffff",
+            "button_background": "#000000",
+            "caption_background": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_Li9M67",
+        "image_aBLY7j",
+        "image_Xmwf7A"
+      ],
+      "settings": {
+        "full_width": false,
+        "layout": "left",
+        "image_width": "66%",
+        "slideshow_size": "natural",
+        "desktop_height": 900,
+        "mobile_height": 600,
+        "title": "Shop by Vehicle",
+        "text": "<p>Utilize our YMM search to find specific & universal fit LED lighting solutions or browse our outfitting guides below based on your vehicle type and needs! <\/p>",
+        "button": "",
+        "link": "",
+        "text_position": "middle",
+        "text_align": "left",
+        "m_center": true,
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
     "800a4e06-c731-44cb-8b7b-11803bac29f8": {
       "type": "editorial-columns",
       "blocks": {
@@ -599,6 +677,7 @@
   "order": [
     "aa15daaa-0d42-448e-ade9-b4a3e91a857a",
     "image_carousel_with_text_fAFKFx",
+    "image_carousel_with_text_kt9KRH",
     "800a4e06-c731-44cb-8b7b-11803bac29f8",
     "a27285bf-7df7-4ca0-abf3-42ecbf8a0207",
     "featured_blog_eKybCw",
