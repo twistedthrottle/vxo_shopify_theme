@@ -1,1 +1,281 @@
-{"sections":{"banner":{"type":"banner-image","disabled":true,"settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"reduced-width":false}},"image_with_text_overlay_grdXQV":{"type":"image-with-text-overlay","settings":{"full_width":true,"image":"shopify:\/\/shop_images\/Vision_X_Offroad_2000x600_Legacy.jpg","image_height":400,"heading":"Legacy But Still Legendary","hidden_text":"View all of our early generation LED lighting products that paved the way for our current range of driving lights. Availability is limited!","link":"","button_text":"View Product","heading_text_size":32,"hidden_text_size":18,"heading_color":"#ffffff","text_color":"#ffffff","button_text_color":"#ffffff","button_color":"#000000","section_padding":"both"}},"collections_slider_jrFrwC":{"type":"collections-slider","blocks":{"featured_collection_wfHqL6":{"type":"featured_collection","settings":{"featured_collection":"optimus-series","collection_image":"shopify:\/\/shop_images\/Vision-X-Ford-Raptor-Optimus-Halo-Amber_7e8364ac-6074-4fd7-92af-235a2263517a.jpg","description_text":"<p>Oldie but a goodie! The Optimus Series was the original 10W LED Light and the first to shine nearly 1,000 ft. out of a 3.7\" Housing.<\/p>","header_text_color":"#000000","des_bg_color":"#ffffff","paragraph_text_color":"#000000","featured_product":"3-optimus-square-15º-beam-with-amber-halo-led-light-kit","product_title_color":"#000000","product_title_bg":"#ffffff","link_bg_color":"#c5b097","link_color":"#ffffff"}},"featured_collection_4kiaNN":{"type":"featured_collection","settings":{"featured_collection":"","description_text":"<p>Describe this featured collection.<\/p>","header_text_color":"#000000","des_bg_color":"#e5e5e5","paragraph_text_color":"#000000","featured_product":"","product_title_color":"#000000","product_title_bg":"#ffffff","link_bg_color":"#454545","link_color":"#ffffff"}},"featured_collection_HUrj7V":{"type":"featured_collection","settings":{"featured_collection":"","description_text":"<p>Describe this featured collection.<\/p>","header_text_color":"#000000","des_bg_color":"#e5e5e5","paragraph_text_color":"#000000","featured_product":"","product_title_color":"#000000","product_title_bg":"#ffffff","link_bg_color":"#454545","link_color":"#ffffff"}}},"block_order":["featured_collection_wfHqL6","featured_collection_4kiaNN","featured_collection_HUrj7V"],"disabled":true,"settings":{"header_font_size":16,"text_font_size":13,"section_padding":"both"}},"collection_list_JmUyFe":{"type":"collection-list","blocks":{"featured_collection_Kzg6Rx":{"type":"featured_collection","settings":{"collection":"solstice-series"}},"featured_collection_jGrRJg":{"type":"featured_collection","settings":{"collection":"optimus-series"}},"featured_collection_rUG3YR":{"type":"featured_collection","settings":{"collection":"vl-series-driving-lights"}},"featured_collection_LXVcKc":{"type":"featured_collection","settings":{"collection":"grilles"}},"featured_collection_66pHmi":{"type":"featured_collection","settings":{"collection":"halogen"}},"featured_collection_rrM3f7":{"type":"featured_collection","settings":{"collection":"xmc-motorcycle"}},"featured_collection_rGLEhp":{"type":"featured_collection","settings":{"collection":"accessory-lighting"}},"featured_collection_zPEGNx":{"type":"featured_collection","settings":{"collection":"closeouts"}}},"block_order":["featured_collection_Kzg6Rx","featured_collection_jGrRJg","featured_collection_rUG3YR","featured_collection_LXVcKc","featured_collection_66pHmi","featured_collection_rrM3f7","featured_collection_rGLEhp","featured_collection_zPEGNx"],"settings":{"title":"","collections_per_row":4,"mobile_single":false,"color_scheme":"none","section_padding":"none"}},"featured_collection_carousel_ej3AgV":{"type":"featured-collection-carousel","settings":{"collection":"optimus-series","grid":4,"limit":4,"show_collection_image":false,"mobile_caption_top":true,"heading":"Featured Collection","text":"<p>Oldie but a goodie! The Optimus Series was the original 10W LED Light and the first to shine nearly 1,000 ft. out of a 3.7\" Housing.<\/p>","button":"SHOP NOW","color_scheme":"none","section_padding":"both"}},"featured_collection_carousel_JgFf8p":{"type":"featured-collection-carousel","disabled":true,"settings":{"collection":"optimus-series","grid":4,"limit":4,"show_collection_image":false,"mobile_caption_top":false,"heading":"Featured Collection : Optimus Series","text":"<p>Oldie but a goodie! The Optimus Series was the original 10W LED Light and the first to shine nearly 1,000 ft. out of a 3.7\" Housing.<\/p>","button":"SHOP NOW","color_scheme":"none","section_padding":"both"}},"editorial_columns_Hcjrq8":{"type":"editorial-columns","blocks":{"text_block_qkVGPX":{"type":"text_block","settings":{"link":"","title_text":"Text column title","text":"<p>Pair an image with columns of text and a call to action button to add an editorial style content section<\/p>","button_text":"Button"}},"text_block_qb8bEC":{"type":"text_block","settings":{"link":"","title_text":"Text column title","text":"<p>Pair an image with columns of text and a call to action button to add an editorial style content section<\/p>","button_text":"Button"}},"text_block_6XjR86":{"type":"text_block","settings":{"link":"","title_text":"Text column title","text":"<p>Pair an image with columns of text and a call to action button to add an editorial style content section<\/p>","button_text":"Button"}},"text_block_79qX3H":{"type":"text_block","settings":{"link":"","title_text":"Text column title","text":"<p>Pair an image with columns of text and a call to action button to add an editorial style content section<\/p>","button_text":"Button"}}},"block_order":["text_block_qkVGPX","text_block_qb8bEC","text_block_6XjR86","text_block_79qX3H"],"disabled":true,"settings":{"title":"Editorial columns","image_height":"natural","desktop_height":450,"mobile_height":300,"align_text":"left","section_padding":"both"}}},"order":["banner","main","image_with_text_overlay_grdXQV","collections_slider_jrFrwC","collection_list_JmUyFe","featured_collection_carousel_ej3AgV","featured_collection_carousel_JgFf8p","editorial_columns_Hcjrq8"]}
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "banner": {
+      "type": "banner-image",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "reduced-width": false
+      }
+    },
+    "image_with_text_overlay_grdXQV": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "image": "shopify://shop_images/Vision_X_Offroad_2000x600_Legacy.jpg",
+        "image_height": 400,
+        "heading": "Legacy But Still Legendary",
+        "hidden_text": "View all of our early generation LED lighting products that paved the way for our current range of driving lights. Availability is limited!",
+        "link": "",
+        "button_text": "View Product",
+        "heading_text_size": 32,
+        "hidden_text_size": 18,
+        "heading_color": "#ffffff",
+        "text_color": "#ffffff",
+        "button_text_color": "#ffffff",
+        "button_color": "#000000",
+        "section_padding": "both"
+      }
+    },
+    "collections_slider_jrFrwC": {
+      "type": "collections-slider",
+      "blocks": {
+        "featured_collection_wfHqL6": {
+          "type": "featured_collection",
+          "settings": {
+            "featured_collection": "optimus-series",
+            "collection_image": "shopify://shop_images/Vision-X-Ford-Raptor-Optimus-Halo-Amber_7e8364ac-6074-4fd7-92af-235a2263517a.jpg",
+            "description_text": "<p>Oldie but a goodie! The Optimus Series was the original 10W LED Light and the first to shine nearly 1,000 ft. out of a 3.7\" Housing.</p>",
+            "header_text_color": "#000000",
+            "des_bg_color": "#ffffff",
+            "paragraph_text_color": "#000000",
+            "featured_product": "3-optimus-square-15º-beam-with-amber-halo-led-light-kit",
+            "product_title_color": "#000000",
+            "product_title_bg": "#ffffff",
+            "link_bg_color": "#c5b097",
+            "link_color": "#ffffff"
+          }
+        },
+        "featured_collection_4kiaNN": {
+          "type": "featured_collection",
+          "settings": {
+            "featured_collection": "",
+            "description_text": "<p>Describe this featured collection.</p>",
+            "header_text_color": "#000000",
+            "des_bg_color": "#e5e5e5",
+            "paragraph_text_color": "#000000",
+            "featured_product": "",
+            "product_title_color": "#000000",
+            "product_title_bg": "#ffffff",
+            "link_bg_color": "#454545",
+            "link_color": "#ffffff"
+          }
+        },
+        "featured_collection_HUrj7V": {
+          "type": "featured_collection",
+          "settings": {
+            "featured_collection": "",
+            "description_text": "<p>Describe this featured collection.</p>",
+            "header_text_color": "#000000",
+            "des_bg_color": "#e5e5e5",
+            "paragraph_text_color": "#000000",
+            "featured_product": "",
+            "product_title_color": "#000000",
+            "product_title_bg": "#ffffff",
+            "link_bg_color": "#454545",
+            "link_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_wfHqL6",
+        "featured_collection_4kiaNN",
+        "featured_collection_HUrj7V"
+      ],
+      "disabled": true,
+      "settings": {
+        "header_font_size": 16,
+        "text_font_size": 13,
+        "section_padding": "both"
+      }
+    },
+    "collection_list_JmUyFe": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_kYihYi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "shocker-x2-dual-row-led-series"
+          }
+        },
+        "featured_collection_Kzg6Rx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "solstice-series"
+          }
+        },
+        "featured_collection_jGrRJg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "optimus-series"
+          }
+        },
+        "featured_collection_rUG3YR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "vl-series-driving-lights"
+          }
+        },
+        "featured_collection_LXVcKc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grilles"
+          }
+        },
+        "featured_collection_66pHmi": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "halogen"
+          }
+        },
+        "featured_collection_rrM3f7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "xmc-motorcycle"
+          }
+        },
+        "featured_collection_rGLEhp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessory-lighting"
+          }
+        },
+        "featured_collection_zPEGNx": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "closeouts"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_kYihYi",
+        "featured_collection_Kzg6Rx",
+        "featured_collection_jGrRJg",
+        "featured_collection_rUG3YR",
+        "featured_collection_LXVcKc",
+        "featured_collection_66pHmi",
+        "featured_collection_rrM3f7",
+        "featured_collection_rGLEhp",
+        "featured_collection_zPEGNx"
+      ],
+      "settings": {
+        "title": "",
+        "collections_per_row": 4,
+        "mobile_single": false,
+        "color_scheme": "none",
+        "section_padding": "none"
+      }
+    },
+    "featured_collection_carousel_ej3AgV": {
+      "type": "featured-collection-carousel",
+      "settings": {
+        "collection": "optimus-series",
+        "grid": 4,
+        "limit": 4,
+        "show_collection_image": false,
+        "mobile_caption_top": true,
+        "heading": "Featured Collection",
+        "text": "<p>Oldie but a goodie! The Optimus Series was the original 10W LED Light and the first to shine nearly 1,000 ft. out of a 3.7\" Housing.</p>",
+        "button": "SHOP NOW",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "featured_collection_carousel_JgFf8p": {
+      "type": "featured-collection-carousel",
+      "disabled": true,
+      "settings": {
+        "collection": "optimus-series",
+        "grid": 4,
+        "limit": 4,
+        "show_collection_image": false,
+        "mobile_caption_top": false,
+        "heading": "Featured Collection : Optimus Series",
+        "text": "<p>Oldie but a goodie! The Optimus Series was the original 10W LED Light and the first to shine nearly 1,000 ft. out of a 3.7\" Housing.</p>",
+        "button": "SHOP NOW",
+        "color_scheme": "none",
+        "section_padding": "both"
+      }
+    },
+    "editorial_columns_Hcjrq8": {
+      "type": "editorial-columns",
+      "blocks": {
+        "text_block_qkVGPX": {
+          "type": "text_block",
+          "settings": {
+            "link": "",
+            "title_text": "Text column title",
+            "text": "<p>Pair an image with columns of text and a call to action button to add an editorial style content section</p>",
+            "button_text": "Button"
+          }
+        },
+        "text_block_qb8bEC": {
+          "type": "text_block",
+          "settings": {
+            "link": "",
+            "title_text": "Text column title",
+            "text": "<p>Pair an image with columns of text and a call to action button to add an editorial style content section</p>",
+            "button_text": "Button"
+          }
+        },
+        "text_block_6XjR86": {
+          "type": "text_block",
+          "settings": {
+            "link": "",
+            "title_text": "Text column title",
+            "text": "<p>Pair an image with columns of text and a call to action button to add an editorial style content section</p>",
+            "button_text": "Button"
+          }
+        },
+        "text_block_79qX3H": {
+          "type": "text_block",
+          "settings": {
+            "link": "",
+            "title_text": "Text column title",
+            "text": "<p>Pair an image with columns of text and a call to action button to add an editorial style content section</p>",
+            "button_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_qkVGPX",
+        "text_block_qb8bEC",
+        "text_block_6XjR86",
+        "text_block_79qX3H"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Editorial columns",
+        "image_height": "natural",
+        "desktop_height": 450,
+        "mobile_height": 300,
+        "align_text": "left",
+        "section_padding": "both"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay_grdXQV",
+    "collections_slider_jrFrwC",
+    "collection_list_JmUyFe",
+    "featured_collection_carousel_ej3AgV",
+    "featured_collection_carousel_JgFf8p",
+    "editorial_columns_Hcjrq8"
+  ]
+}
