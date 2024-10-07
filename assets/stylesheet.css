@@ -5164,7 +5164,11 @@ section[data-section-loaded="true"] .animate,
   top: 40px;
   overflow: hidden;
   z-index: 4;
-  border: 1px solid #eee;
+  /* border: 1px solid #eee; */
+  border: 2px solid #eee;
+}
+.zoom-box img{
+  background: #fff !Important;
 }
 
 body.compensate-for-scrollbar {
