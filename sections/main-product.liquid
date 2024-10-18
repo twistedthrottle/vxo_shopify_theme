@@ -443,7 +443,7 @@
             
               <select style="display:none;" id="hidden-variant-metafields">
                 {% for variant in product.variants %}
-                  <option value="{{ variant.id }}" Sku="{{ variant.sku }}" {% if variant.metafields.custom.item_number != blank %}data-metafield="Item:{{ variant.metafields.custom.item_number }}" checkoutitemid="{{ variant.metafields.custom.item_number }}"{% else %}data-metafield="{{ variant.metafields.custom.item_number }}" checkoutitemid="{{ variant.metafields.custom.item_number }}"{% endif %}></option>
+                  <option value="{{ variant.id }}" Sku="{{ variant.sku }}" {% if variant.metafields.custom.item_number != blank %}data-metafield="Item: {{ variant.metafields.custom.item_number }}" checkoutitemid="{{ variant.metafields.custom.item_number }}"{% else %}data-metafield="{{ variant.metafields.custom.item_number }}" checkoutitemid="{{ variant.metafields.custom.item_number }}"{% endif %}></option>
                 {% endfor %}
               </select>
               {% if current_variant.metafields.custom.item_number != blank %}
