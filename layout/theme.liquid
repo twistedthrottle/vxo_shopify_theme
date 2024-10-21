@@ -235,7 +235,8 @@ _affirm_config = {
 
 </head>
 
-<body class="gridlock {{ template | handleize }} template-{{ template | handleize }} js-slideout-toggle-wrapper js-modal-toggle-wrapper {% render 'body-classes' %}">
+{% comment %} Added class lazy-content-0 by MLVeda {% endcomment %}
+<body class="lazy-content-0 gridlock {{ template | handleize }} template-{{ template | handleize }} js-slideout-toggle-wrapper js-modal-toggle-wrapper {% render 'body-classes' %}">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTHN9TW"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
